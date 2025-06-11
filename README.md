@@ -111,6 +111,14 @@ chmod +x run_experiments.sh
 ./run_experiments.sh
 ```
 
+> [!Tip]
+> Move the results to `./local_results/` to avoid overwriting the results in the `results/` directory.
+> This is useful when you want to run the experiments multiple times and compare the results.
+>
+> ```bash
+> mv results/ local_results/
+> ```
+
 ## Project Structure
 
 ```bash

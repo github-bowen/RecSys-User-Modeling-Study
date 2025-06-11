@@ -20,6 +20,7 @@ import yaml
 import pandas as pd
 import numpy as np
 from tqdm import tqdm
+import warnings
 
 # Import utility functions
 from src.utils.data_loader import (
@@ -39,6 +40,12 @@ from src.user_modeling.hybrid import HybridUserModel
 # Import recommendation algorithms
 from src.algorithms.knn import KNNRecommender
 # Additional algorithms could be imported here
+
+warnings.filterwarnings(
+    "ignore",
+    message="DataFrameGroupBy.apply operated on the grouping columns",
+    category=FutureWarning,
+)
 
 def parse_args():
     """Parse command line arguments."""
