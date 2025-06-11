@@ -38,7 +38,7 @@ This dataset is ideal for our experiment as it provides both rich interaction da
 ```bash
 # Clone the repository
 git clone https://github.com/github-bowen/RecSys-User-Modeling-Study.git
-cd recommender_user_modeling_study
+cd RecSys-User-Modeling-Study
 
 # Install dependencies
 python3 -m venv venv
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ```bash
 # Clone the repository
 git clone https://github.com/github-bowen/RecSys-User-Modeling-Study.git
-cd recommender_user_modeling_study
+cd RecSys-User-Modeling-Study
 
 # Create and activate conda environment
 conda env create -f environment.yml
