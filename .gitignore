@@ -29,6 +29,8 @@ results/*.csv
 results/*.json
 results/*.txt
 
+images/
+
 local_results/
 
 # IDE files
